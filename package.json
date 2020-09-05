@@ -21,6 +21,7 @@
     "caching"
   ],
   "dependencies": {
+    "find-remove": "^2.0.1",
     "graceful-fs": "^4.0.0",
     "kue": "^0.11.6",
     "mkdirp": "^0.5.1"
