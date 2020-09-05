@@ -1,39 +1,38 @@
 {
-  "name": "cached-request",
-  "version": "3.0.0",
-  "description": "Node.js module to perform HTTP requests with caching support",
-  "author": "Daniel López <danypype@gmail.com>",
-  "license": "MIT",
-  "scripts": {
-    "test": "mocha"
-  },
-  "main": "./lib/index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/alltherooms/cached-request"
-  },
-  "bugs": {
-    "url": "https://github.com/alltherooms/cached-request/issues"
-  },
-  "keywords": [
-    "request",
-    "cache",
-    "caching"
-  ],
-  "dependencies": {
-    "find-remove": "^2.0.1",
-    "graceful-fs": "^4.0.0",
-    "kue": "^0.11.6",
-    "mkdirp": "^0.5.1"
-  },
-  "devDependencies": {
-    "chai": "^4.0.2",
-    "mocha": "^8.1.0",
-    "nock": "^9.0.13",
-    "request": "^2.51.0",
-    "temp": "^0.8.1"
-  },
-  "engines": {
-    "node": ">=6"
-  }
+   "name": "cached-request",
+   "version": "3.0.0",
+   "description": "Node.js module to perform HTTP requests with caching support",
+   "author": "Daniel López <danypype@gmail.com>",
+   "license": "MIT",
+   "scripts": {
+      "test": "mocha"
+   },
+   "main": "./lib/index.js",
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/alltherooms/cached-request"
+   },
+   "bugs": {
+      "url": "https://github.com/alltherooms/cached-request/issues"
+   },
+   "keywords": [
+      "request",
+      "cache",
+      "caching"
+   ],
+   "dependencies": {
+      "find-remove": "^2.0.1",
+      "graceful-fs": "^4.0.0",
+      "mkdirp": "^0.5.1"
+   },
+   "devDependencies": {
+      "chai": "^4.0.2",
+      "mocha": "^8.1.0",
+      "nock": "^9.0.13",
+      "request": "^2.51.0",
+      "temp": "^0.8.1"
+   },
+   "engines": {
+      "node": ">=6"
+   }
 }
